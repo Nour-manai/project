@@ -1,0 +1,6 @@
+Le projet est un site web d'un laboratoire d'étalonnage des compteurs gaz.
+Le site est composé d'une page à propos ou j'indroduit la mission du laboratoire,une page des services offerts par le laboratoire:
+-etalonnage du copmteur a turbine,
+-etalonnage du compteur a piston rotatif,
+-etalonnage du compteur a membrane .
+Il contient aussi une page de contact et prise de rendez-vous qui contient un formulaire à remplir.
