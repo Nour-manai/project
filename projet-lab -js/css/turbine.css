@@ -1,0 +1,232 @@
+
+* 
+{
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, sans-serif; 
+    margin:0;
+} 
+.article{
+  border-color: azure;
+  border-style:groove; 
+}
+/************** tunilab header **********************/
+.tunilab-header{
+    display: flex;
+    justify-content: space-around;
+    padding : 10px;
+    background-color:rgb(239, 245, 242);
+    font-weight: bold;
+    font-size: 30px;
+}
+.header-menu ul{
+    display: flex;
+    gap: 100px;
+}
+.header-menu li{
+    list-style-type: none;
+}
+.header-menu a{
+    text-decoration: none;
+    color:#ababab; 
+}
+.header-menu a:hover{
+    color: #00c3a5;
+}
+.header-menu .active {
+    color: #00c3a5;
+}
+.logo-tunilab{
+  height: 100px;
+  width: 250px;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: #00c3a5;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+      /*carousel */
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(207, 14, 14);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*****description*****/
+.description{
+ margin:0px;
+ padding: 0px;
+}
+.description p{
+  font-size: 20px;
+  
+ 
+}
+
+
+h2{
+  color:rgb(48, 155, 149);
+  font-size:30px;
+  text-decoration:underline;
+}
+p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+  line-height: 2;
+}
+.lien{
+  margin: 0px;
+  padding: 0px;
+}
+.description{
+  text-align: center;
+  border-color: azure;
+  border-style:groove; 
+  
+
+}
+.etalonnage{
+  
+  text-align: center;
+ 
+  border-color: azure;
+  border-style:groove; 
+ 
+  background-color: rgba(124, 14, 124, 0.116);
+}
+.etalonnage p{
+  margin:50px;
+}
+.turbine{
+  background-color:rgba(74, 117, 117, 0.13);
+}
+.piston{
+  background-color: rgba(50, 10, 145, 0.13);
+}
+/*****footer******/
+footer{
+  border-top: 1px solid #eef2f2;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+footer p{
+  
+  color: #ababab;
+  
+}
+.footer-content-right img {
+  height: 50px;
+  width: 60px;
+  gap: 5px;
+  margin:5px;
+  
+}
+
+
+@media screen and (max-width: 800px) {
+  .tunilab-header {   
+    flex-direction: column;
+  }
+   
+}
+
+

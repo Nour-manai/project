@@ -1,0 +1,148 @@
+
+
+  
+
+body{
+    background-image: url(../image/lab.png);  
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    font-family: sans-serif;
+    margin:0px;
+}
+/************** tunilab header **********************/
+
+.tunilab-header{
+    display: flex;
+    justify-content: space-around;
+    padding : 10px;
+    background-color:rgb(239, 245, 242);
+    font-weight: bold;
+    font-size: 30px;
+}
+.header-menu ul{
+    display: flex;
+    gap: 100px;
+}
+.header-menu li{
+    list-style-type: none;
+}
+.header-menu a{
+    text-decoration: none;
+    color:#ababab; 
+}
+.header-menu a:hover{
+    color: #00c3a5;
+}
+.header-menu .active {
+    color: #00c3a5;
+}
+.logo-tunilab{
+    height: 100px;
+    width: 250px;
+
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: #00c3a5;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/*************** introduction section *****************/
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin: 80px;
+    background-color: rgba(255, 255, 255, 0.603);
+    text-align: center;
+    font-size: 20px;
+}
+.introduction-title{
+    color: red;
+    font-size: 2.125rem;
+    font-family: Roboto;
+}
+
+.introduction-description p {
+    line-height: 1.75;
+    max-width: 100 px;
+    text-align: right;
+}
+
+/*****footer******/
+footer{
+  border-top: 1px solid #eef2f2;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
+
+footer p{
+  font-size: 12;
+  color: #ababab;
+}
+.footer-content-right img {
+  height: 50px;
+  width: 60px;
+  gap: 5px;
+  margin:5px;
+  
+}
+
+@media screen and (max-width: 800px) {
+  .tunilab-header {   
+    flex-direction: column;
+  }
+  .introduction{
+      font-size: 20px;
+  }
+      .introduction-description p {
+        line-height: 1;
+        max-width: 100 px;
+        text-align: center;
+    }   
+  
+    body{
+      
+      
+      height: 120vh;
+      
+     
+     
+  } 
+}
